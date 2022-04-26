@@ -1,6 +1,6 @@
 {
     "theme": {
-        "file": "/themes/theme.txt",
+        "file": "/ventoy/themes/theme.txt",
         "gfxmode": "1920x1080",
         "display_mode": "GUI",
         "serial_param": "--unit=0 --speed=9600",
@@ -8,67 +8,28 @@
         "ventoy_top": "10%",
         "ventoy_color": "#cccccc",
         "fonts": [
-            "/themes/terminus-14.pf2"
+            "/ventoy/themes/DejaVuSans-Regular-14.pf2"
         ]
     },
-    "menu_class": [
-        {
-            "key": "kubuntu",
-            "class": "kubuntu"
-        },
-        {
-            "key": "ubuntu",
-            "class": "ubuntu"
-        },
-        {
-            "key": "pop-os",
-            "class": "pop-os"
-        },
-        {
-            "key": "arch",
-            "class": "arch"
-        },
-        {
-            "key": "linuxmint",
-            "class": "linuxmint"
-        },
-        {
-            "key": "opensuse",
-            "class": "opensuse"
-        },
-        {
-            "key": "elementary",
-            "class": "elementary"
-        },
-        {
-            "key": "manjaro",
-            "class": "manjaro"
-        },
-        {
-            "key": "debian",
-            "class": "debian"
-        },
-        {
-            "key": "deepin",
-            "class": "deepin"
-        },
-        {
-            "key": "solus",
-            "class": "solus"
-        },
-        {
-            "key": "zorin-os",
-            "class": "zorin-os"
-        },
-        {
-            "key": "windows",
-            "class": "windows"
-        },
-        {
-            "key": "iso",
-            "class": "iso"
-        }
-
+    "control": [
+        { "VTOY_DEFAULT_MENU_MODE": "0" },
+        { "VTOY_TREE_VIEW_MENU_STYLE": "0" },
+        { "VTOY_FILT_DOT_UNDERSCORE_FILE": "0" },
+        { "VTOY_SORT_CASE_SENSITIVE": "0" },
+        { "VTOY_MAX_SEARCH_LEVEL": "max" },
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/" },
+        { "VTOY_MENU_TIMEOUT": "10" },
+        { "VTOY_DEFAULT_IMAGE": "/" },
+        { "VTOY_FILE_FLT_ISO": "0" },
+        { "VTOY_FILE_FLT_WIM": "0" },
+        { "VTOY_FILE_FLT_EFI": "0" },
+        { "VTOY_FILE_FLT_IMG": "0" },
+        { "VTOY_FILE_FLT_VHD": "0" },
+        { "VTOY_FILE_FLT_VTOY": "0" },
+        { "VTOY_DEFAULT_KBD_LAYOUT": "QWERTY_USA" },
+        { "VTOY_WIN11_BYPASS_CHECK": "0" },
+        { "VTOY_HELP_TXT_LANGUAGE": "en_US" },
+        { "VTOY_LINUX_REMOUNT": "0" }
     ]
 }
     
